@@ -1,0 +1,27 @@
+:root{
+    --primaryColor: #1073ba;
+    --secondaryColor: #00da55;
+    --grayColor: #3b3b3b;
+    --whiteColor: #FFFFFF;
+    --blackColor: #1f1e1e1e;
+    --secondaryGrayColor: #e1e1e1;
+
+    --spaces: 5rem;
+
+    --principalFont: 'Roboto', sans-serif;
+    --secondaryFont: 'Lato', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1REM = 10PX */
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: var(--principalFont);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
