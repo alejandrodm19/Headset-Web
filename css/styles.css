@@ -3,7 +3,7 @@
     --secondaryColor: #00da55;
     --grayColor: #3b3b3b;
     --whiteColor: #FFFFFF;
-    --blackColor: #1f1e1e1e;
+    --blackColor: #1f1e1e;
     --secondaryGrayColor: #e1e1e1;
 
     --spaces: 5rem;
@@ -55,4 +55,22 @@ img{
 
 .text-center{
     text-align: center;
+}
+
+/* Header */
+.header{
+    background-color: var(--blackColor);
+    padding: calc( var(--spaces) * 3) 0;
+    color: var(--whiteColor)
+}
+.header img{
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) { 
+    .header_content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
