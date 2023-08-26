@@ -223,3 +223,67 @@ img{
     font-size: 2rem;
     line-height: 2;
 }
+
+/* Tech Models */
+.models{
+    padding: var(--spaces);
+}
+
+.header_model{
+    font-size: 6rem;
+    margin-bottom: var(--spaces);
+}
+
+.models_list{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media (min-width: 992px) { 
+    .models_list
+}
+
+.model{
+    background-color: var(--secondaryGrayColor);
+    margin-bottom: 2rem;
+    padding-left: 4rem;
+    color: var(--primaryColor);
+    border-radius: 2rem;
+    min-height: 20rem;
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    background-size: 15rem;
+
+}
+
+.model h3{
+    font-size: 2.4rem;
+}
+
+.model .price{
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 0;
+}
+
+.model_x{
+    background-image: url(../img/modelo-x.svg);
+}
+
+.model_y{
+    background-image: url(../img/modelo-y.svg);
+}
+
+.model_z{
+    background-image: url(../img/modelo-z.svg);
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+}
+
+.model_z .price{
+    font-size: 6rem;
+}
+
+.model:first-of-type{
+    margin-bottom: 0;
+}
